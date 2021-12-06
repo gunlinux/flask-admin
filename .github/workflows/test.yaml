@@ -11,9 +11,9 @@ jobs:
         python-version: ['3.6', '3.7', '3.8', '3.9', '3.10']
         tox-version: [ 'WTForms2' ]
         include:
-          - python-version: 3.6
+          - python-version: '3.10'
             tox-version: flake8
-          - python-version: 3.6
+          - python-version: '3.10'
             tox-version: docs-html
     services:
       # Label used to access the service container
@@ -33,7 +33,7 @@ jobs:
           --health-timeout 5s
           --health-retries 5
       mongo:
-        image: mongo:5.0.4-focal
+        image: mongo:3.1
         ports:
           - 27017:27017
       azurite:
