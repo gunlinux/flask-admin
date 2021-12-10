@@ -1,5 +1,5 @@
 try:
-    from flask_babelex import Domain
+    from flask_babel import Domain
 
 except ImportError:
     def gettext(string, **variables):
