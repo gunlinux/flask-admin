@@ -44,8 +44,8 @@ msgid ""
 msgstr "SecureForm 需要 WTForms 2+。当表单提交时，它使用 WTForms SessionCSRF 类来生成和验证令牌。"
 
 #: ../../doc/advanced.rst:22
-msgid "Localization With Flask-Babelex"
-msgstr "使用 Flask-Babelex 本地化"
+msgid "Localization With Flask-Babel"
+msgstr "使用 Flask-Babel 本地化"
 
 #: ../../doc/advanced.rst:26
 msgid ""
@@ -55,16 +55,15 @@ msgstr "Flask-Admin 提供多种语言的翻译。启用本地化非常简单:"
 
 #: ../../doc/advanced.rst:29
 msgid ""
-"Install `Flask-BabelEx <http://github.com/mrjoes/flask-babelex/>`_ to do "
+"Install `Flask-Babel <https://github.com/python-babel/flask-babel/>`_ to do "
 "the heavy lifting. It's a fork of the `Flask-Babel "
 "<http://github.com/mitshuhiko/flask-babel/>`_ package::"
 msgstr ""
-"安装 `Flask-BabelEx <http://github.com/mrjoes/flask-babelex/>`_ 扩展，它是 "
-"`Flask-Babel <http://github.com/mitshuhiko/flask-babel/>`_ 的分支::"
+"安装 `Flask-Babel <https://github.com/python-babel/flask-babel/>`_ "
 
 #: ../../doc/advanced.rst:35
-msgid "Initialize Flask-BabelEx by creating instance of `Babel` class::"
-msgstr "通过创建 `Babel` 类实例，初始化 Flask-BabelEx 扩展::"
+msgid "Initialize Flask-Babel by creating instance of `Babel` class::"
+msgstr "通过创建 `Babel` 类实例，初始化 Flask-Babel 扩展::"
 
 #: ../../doc/advanced.rst:43
 msgid "Create a locale selector function::"
